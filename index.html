@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="weatherapp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <form class="form" id="search-form">
+          <input
+            type="search"
+            placeholder="Type a city..."
+            autocomplete="off"
+            autofocus="on"
+            class="find"
+            id="input"
+          />
+          <input type="submit" value="Search" class="search" />
+          <button class="current" id="current">Current Location</button>
+        </form>
+      </div>
+
+      <hr />
+
+      <div class="description">
+        <p class="place" id="place">Abuja</p>
+
+        <div class="time-state">
+          <span class="time" id="date">Friday 5:00pm,</span>
+          <span class="state" id="state">Mostly Cloudy</span>
+        </div>
+
+        <p class="condition">
+          Humidity:
+          <span class="humidity" id="humidity">68</span>
+          <span class="humidity">%</span>
+          Wind:
+          <span class="wind" id="wind">6</span>
+          <span class="wind">km\h</span>
+        </p>
+      </div>
+
+      <div class="temperature-section">
+        <span class="emojii">
+          <img
+            src="https://openweathermap.org/img/wn/02d@2x.png"
+            alt=""
+            width="42"
+            id="icon"
+        /></span>
+        <p class="temperature" id="temperature">27</p>
+        <sup class="degree">
+          <a href="#" class="celsius active" id="celsius">°C |</a>
+          <a href="#" class="fahrenheit" id="fahrenheit">°F</a>
+        </sup>
+      </div>
+
+      <div class="weekdays" id="weekdays">
+        <ul></ul>
+      </div>
+
+      <hr />
+
+      <div class="footer">
+        This project was developed by
+        <a href="#" class="linked">Ruth Moses</a> and is
+        <a
+          href="https://github.com/Ruth-Moses?tab=repositories"
+          target="_blank"
+          class="link"
+          >open-sourced on GitHub
+        </a>
+
+        and hosted on
+        <a href="#" class="linked">Vercel</a>
+      </div>
+    </div>
+
+    <script src="weatherapp.js"></script>
+  </body>
+</html>
