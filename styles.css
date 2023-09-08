@@ -1,0 +1,168 @@
+body {
+  background-color: #e1cbd7;
+}
+hr {
+  width: 680px;
+  border: none;
+}
+.container {
+  background-color: white;
+  border-radius: 15px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  width: 800px;
+}
+.header {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.find {
+  background-color: #e1cbd7;
+  border: 0px solid #e1cbd7;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+  outline: none;
+  padding: 12.5px;
+  width: 42%;
+}
+::placeholder {
+  color: white;
+}
+.search {
+  background-color: #c38eb4;
+  border: 1px solid #c38eb4;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+  outline: none;
+  padding: 12.5px;
+  width: 14%;
+}
+.search:hover {
+  background-color: white;
+  color: #c38eb4;
+  cursor: pointer;
+}
+.current {
+  background-color: #c38eb4;
+  border: 1px solid #c38eb4;
+  border-radius: 16px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  padding: 12.5px;
+  width: 20%;
+}
+.current:hover {
+  background-color: white;
+  color: #c38eb4;
+  cursor: pointer;
+}
+.description {
+  margin-top: 50px;
+  padding-left: 50px;
+  text-align: left;
+}
+.place {
+  font-size: 38px;
+}
+.time-state,
+.time,
+.state {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 17px;
+  margin-top: -15px;
+  padding-bottom: 15px;
+}
+.time:first-letter {
+  text-transform: capitalize;
+}
+.state {
+  text-transform: capitalize;
+}
+.condition {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 17px;
+  margin-top: -8px;
+}
+.humidity {
+  color: #c38eb4;
+}
+.wind {
+  color: #c38eb4;
+}
+.temperature-section {
+  padding-right: 40px;
+  position: relative;
+  top: -175px;
+  text-align: right;
+}
+.emojii img {
+  padding-right: 2px;
+  position: relative;
+  top: 35px;
+  width: 108px;
+}
+.temperature {
+  display: inline;
+  font-size: 65px;
+}
+.degree {
+  font-size: 25px;
+  position: relative;
+  top: -20px;
+}
+.fahrenheit,
+.celsius {
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.4);
+}
+.active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.weekdays li {
+  display: inline-block;
+  padding: 40px;
+  position: relative;
+  right: 4px;
+  top: -100px;
+}
+.day {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 18px;
+}
+.emoji img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 63px;
+}
+.temp {
+  color: #c38eb4;
+  font-size: 18px;
+  font-weight: bold;
+}
+.last {
+  color: #e1cbd7;
+}
+.footer {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 15px;
+  padding-bottom: 40px;
+  margin-top: -80px;
+}
+.link {
+  color: #c38eb4;
+}
+.linked {
+  text-decoration: none;
+  color: #c38eb4;
+  cursor: text;
+}
